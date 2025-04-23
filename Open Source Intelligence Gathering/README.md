@@ -4,7 +4,7 @@
 
 ## OSINT Tools
 
-* [Goog.mail.py](#Goog-mail.py)
+* [Goog.mail.py](#Googmailpy)
 
 
 ### Goog-mail.py
