@@ -16,6 +16,14 @@ The script that i'm using is Goog-mail.py. This script is an automated way to se
 ### Google Dorking and Shadow Files
 
 Google like any other search engine is a valuable tool when trying to come across information about a target. It's encouraged to use multiple search engines to try and uncover as much information as you can. Google Dorking can help identify vulnerable sites and data and it can be fairly simple. for example try typing in this into google
-   ```powershell
+  ```powershell
     inurl:/etc/passwd root:x:0:0:root:/root:/bin/bash
- ```
+  ```
+If you come across a website while using this it points toa insecurely configured Linux or UNIX Host. This file contains information such as usernames for the system. It used to contain both usernames and password however Password hashes are now stored in the shadow files.
+Note it is very important that if you do come across an exposed website do not click on it, as this can be viewed as you trying to hack into the system. This could land you in legal scrutinity if you don't have permission/
+
+  ```powershell
+    # Another thing you can use in google is 
+    filetype:doc inurl:gov intext:"default password"
+   # This targets word document types ( you can change the filetype to txt. pdf or anything you desire) and its looking only a .gov sites copntainting text for default passwords. This can be very usefult to grab a list of default passwords easily
+  ```
