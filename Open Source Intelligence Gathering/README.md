@@ -24,8 +24,6 @@ Note it is very important that if you do come across an exposed website do not c
 
    Another thing you can use in google is 
   ```powershell
-    # Another thing you can use in google is 
     filetype:doc inurl:gov intext:"default password"
-   # This targets word document types ( you can change the filetype to txt. pdf or anything you desire) and its looking only a .gov sites copntainting text for default passwords. This can be very usefult to grab a list of default passwords easily
   ```
   This targets word document types ( you can change the filetype to txt. pdf or anything you desire) and its looking only a .gov sites copntainting text for default passwords. This can be very usefult to grab a list of default passwords easily
