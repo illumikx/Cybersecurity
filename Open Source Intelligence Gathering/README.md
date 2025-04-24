@@ -18,4 +18,4 @@ The script that i'm using is Goog-mail.py. This script is an automated way to se
 Google like any other search engine is a valuable tool when trying to come across information about a target. It's encouraged to use multiple search engines to try and uncover as much information as you can. Google Dorking can help identify vulnerable sites and data and it can be fairly simple. for example try typing in this into google
    ```powershell
     inurl:/etc/passwd root:x:0:0:root:/root:/bin/bash
-    ```
+ ```
