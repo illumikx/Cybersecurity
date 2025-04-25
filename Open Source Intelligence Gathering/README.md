@@ -27,3 +27,5 @@ Note it is very important that if you do come across an exposed website do not c
     filetype:doc inurl:gov intext:"default password"
   ```
   This targets word document types ( you can change the filetype to txt. pdf or anything you desire) and its looking only a .gov sites copntainting text for default passwords. This can be very usefult to grab a list of default passwords easily
+
+For other Google Dorking ways check [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
