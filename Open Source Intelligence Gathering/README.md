@@ -6,6 +6,7 @@
 
 * [Scripts](#Scripts)
 * [Google Dorking and Shadow Files](#Google-Dorking-and-Shadow-Files)
+* [Have I been Pwned](#Have-I-Been-Pwned)
 
 
 ### Scripts
@@ -29,3 +30,7 @@ Note it is very important that if you do come across an exposed website do not c
   This targets word document types ( you can change the filetype to txt. pdf or anything you desire) and its looking only a .gov sites copntainting text for default passwords. This can be very usefult to grab a list of default passwords easily
 
 For other Google Dorking ways check [Google Hacking Database](https://www.exploit-db.com/google-hacking-database)
+
+### Have I been Pwned 
+
+Have i been pwned is a website you can visit to check if an email address has been affected by some type of data breach over the years. If you have the website collects the information and lets you know what breaches you've been part of. you can check it out [Here](https://haveibeenpwned.com)
