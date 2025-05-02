@@ -33,4 +33,10 @@ For other Google Dorking ways check [Google Hacking Database](https://www.exploi
 
 ### Have I been Pwned 
 
-Have i been pwned is a website you can visit to check if an email address has been affected by some type of data breach over the years. If you have the website collects the information and lets you know what breaches you've been part of. you can check it out [Here](https://haveibeenpwned.com)
+Have i been pwned is a website you can visit to check if an email address has been affected by some type of data breach over the years. If you have the website collects the information and lets you know what breaches you've been part of. you can check it out [Here](https://haveibeenpwned.com) While you check it out also check the API page, this will be useful for our next step.
+
+Using the API key we can use this command 
+  ```powershell
+    curl -H "hibp-api-key: <APIKEY>" https://haveibeenpwned.com/api/v3/breachedaccount/<email_address>
+  ```
+Say you've found an email address associated with company your looking into from other open source methods. Now you can take that email address and find if it's been breached. If it has theres potential that the information has been leaked online and could be obtainable. Now not a full proof plan you can then use the leaked information to test on their current website.
