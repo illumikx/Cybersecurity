@@ -7,6 +7,7 @@
 * [Scripts](#Scripts)
 * [Google Dorking and Shadow Files](#Google-Dorking-and-Shadow-Files)
 * [Have I been Pwned](#Have-I-Been-Pwned)
+* [Recon-ng](#Recon--ng)
 
 
 ### Scripts
@@ -40,3 +41,27 @@ Using the API key we can use this command
     curl -H "hibp-api-key: <APIKEY>" https://haveibeenpwned.com/api/v3/breachedaccount/<email_address>
   ```
 Say you've found an email address associated with company your looking into from other open source methods. Now you can take that email address and find if it's been breached. If it has theres potential that the information has been leaked online and could be obtainable. Now not a full proof plan you can then use the leaked information to test on their current website.
+
+### Recon-ng
+
+Recon-ng is a OSINT Framework software that you can take a look at [Here](https://github.com/lanmaster53/recon-ng) If you are using Kali Linux (Maybe other versions of Linux, I'm not sure) It comes default.
+There is a learning curve to using Recon-ng I would take some time to learn it as it will be useful. If i end up taking my own advice I will come back to this section and update it with the knowledge i've come across. But for now It's pretty basic, there are some API keys from sites you might want to obtain data from that are useful.
+
+As you dive into Offensive security many tools have been gathered to make the job easier. Recon-ng is one of those tools, it allows for essentially a collective space where you can accumlate every bit of information you find into one area. Not only that but it can help find the information as well.
+
+## Recon-ng Profile collector
+This will search the web for profiles belonging to specifcied individuals that you are looking for.
+ ```powershell
+    show profiles
+  ```
+This command will allow you to see the profiles you;ve collected
+
+If you wanted to insert a profile you would use this command
+ ```powershell
+    db insert profiles <username>~~~~
+  ```
+Change the <username> to your desired targets username of course, but the other thing to point is ~. This is important because you're trying to add a record to a database table, which requires you to specify the correct number of columns which for us is four after the username. You can also use Email addresses here for usernames. Once you've entered in the usernames you can press run and it will search through sites with the usernames you've entered.
+
+I would note that if you haven't setup Recon-ng the website search is somewhat limited, so if you do plan on using this again I would take some time to learn/ setu. 
+
+
