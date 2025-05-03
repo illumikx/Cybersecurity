@@ -49,7 +49,7 @@ There is a learning curve to using Recon-ng I would take some time to learn it a
 
 As you dive into Offensive security many tools have been gathered to make the job easier. Recon-ng is one of those tools, it allows for essentially a collective space where you can accumlate every bit of information you find into one area. Not only that but it can help find the information as well.
 
-## Recon-ng Profile collector
+#### Recon-ng Profile collector
 This will search the web for profiles belonging to specifcied individuals that you are looking for.
  ```powershell
     show profiles
