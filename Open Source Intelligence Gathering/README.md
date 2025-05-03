@@ -7,7 +7,7 @@
 * [Scripts](#Scripts)
 * [Google Dorking and Shadow Files](#Google-Dorking-and-Shadow-Files)
 * [Have I been Pwned](#Have-I-Been-Pwned)
-* [Recon-ng](#Recon--ng)
+* [Recon-ng](#Recon-ng)
 
 
 ### Scripts
